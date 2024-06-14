@@ -390,24 +390,24 @@
 //             console.log(element);
 //         }
 
-// ascending and descending order in js
+// // ascending and descending order in js
 
-let arr = [1,2,3,4,5,6,7,8,9]
+// let arr = [1,2,3,4,5,6,7,8,9]
 
-let dese = arr.sort(descending);
-let aese = arr.sort(ascending);
+// let dese = arr.sort(descending);
+// let aese = arr.sort(ascending);
 
-dese.forEach(print);
-aese.forEach(print);
+// dese.forEach(print);
+// aese.forEach(print);
 
-function descending(x,y){
-    return y-x;
-}
+// function descending(x,y){
+//     return y-x;
+// }
 
-function ascending(x,y){
-    return x-y;
-}
+// function ascending(x,y){
+//     return x-y;
+// }
 
-function print(element){
-    console.log(element);
-}
+// function print(element){
+//     console.log(element);
+// }
