@@ -408,8 +408,12 @@
 //     return x-y;
 // }
 
-// function print(element){v
+// function print(element){
 // }
 
+
 //
-//
+function mycode(){
+    let myvar = "harsh";
+}
+
