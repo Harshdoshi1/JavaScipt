@@ -415,5 +415,6 @@
 //
 function mycode(){
     let myvar = "harsh";
+    let name = "";
 }
 
