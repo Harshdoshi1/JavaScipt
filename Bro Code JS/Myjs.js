@@ -485,4 +485,24 @@
 
 // store.forEach((value, key) => console.log(`${key}` ,$,{value})); // error
 
-//objes
+//object
+
+const car = {
+    model : "mustang",
+    color : "red",
+    year : 2024,
+
+    drive : function(){
+        console.log("you drive the car");
+    },
+    break : function(){
+        console.log("you break the car");
+    }
+}
+
+console.log(car.model);
+console.log(car.color);
+console.log(car.year);
+
+car.drive();
+car.break();
