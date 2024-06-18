@@ -432,10 +432,10 @@
 
 let cards = ["A","1","2","3","4","5","6","7","8","9","10","J","Q","K"];
 
-shuffle(array);
+shuffle(cards);
  
 function shuffle(array){
-    let currentindex = array.length();
+    let currentindex = array.length;
 
     if(!(currentindex == 0)){
         let randomindex = Math.floor(Math.random()* array.length)
