@@ -412,9 +412,12 @@
 // }
 
 
-//
-function mycode(){
-    let myvar = "harsh";
-    let name = "homelander";
+//arrow function ==> 
+
+const greeting = function(username){
+    console.log("hello " +username);  // normal
 }
+
+greeting("harsh");
+
 
