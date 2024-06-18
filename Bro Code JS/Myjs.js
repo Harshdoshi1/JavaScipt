@@ -428,26 +428,59 @@
 
 // console.log(`${num(50,100)}%`)
 
-// random cards 
+// // random cards 
 
-let cards = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"];
+// let cards = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"];
 
-shuffle(cards);
+// shuffle(cards);
 
-console.log(cards);
-console.log(cards[0]);
+// console.log(cards);
+// console.log(cards[0]);
  
-function shuffle(array){
-    let currentindex = array.length;
+// function shuffle(array){
+//     let currentindex = array.length;
 
-    while(currentindex != 0){
-        let randomindex = Math.floor(Math.random()* array.length);
-        currentindex -=1;
+//     while(currentindex != 0){
+//         let randomindex = Math.floor(Math.random()* array.length);
+//         currentindex -=1;
 
-        let temp = array[currentindex];
-        array[currentindex] = array[randomindex];
-        array[randomindex] = temp;
-    }
+//         let temp = array[currentindex];
+//         array[currentindex] = array[randomindex];
+//         array[randomindex] = temp;
+//     }
 
-    return array;
-}
+//     return array;
+// }
+
+// // nested function
+
+// let username = "harsh";
+// let messages = 0;
+
+// login();
+
+// function login(){
+
+//     displayusername();
+//     displaymessage();
+
+//     function displayusername(){
+//         console.log(`hello ${username}`);
+//     }
+//     function displaymessage(){
+//         console.log(`you have ${messages}`);
+//     }
+// }
+
+// map = is an object that holds key-pair value of any data type
+
+const store = new Map([
+    ["T-Shirt" , 20],
+    ["jeans" , 30],
+    ["socks" , 10],
+    ["underware" , 50]
+]);
+
+store.get("T-Shirt");
+
+store.forEach((value, key) => console.log(`${key}` $${value}));
