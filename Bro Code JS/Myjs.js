@@ -412,12 +412,19 @@
 // }
 
 
-//arrow function ==> 
+//arrow function => 
 
-const greeting = function(username){
-    console.log("hello " +username);  // normal
-}
+// const greeting = function(username){
+//     console.log("hello " +username);  // normal
+// }
+
+// greeting("harsh");
+
+const greeting = (username) => console.log("hello " ,username)  // normal
+
 
 greeting("harsh");
 
+const num = (x,y) => x/y * 100;
 
+console.log(`${num(50,100)}%`)
