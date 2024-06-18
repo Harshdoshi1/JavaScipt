@@ -440,5 +440,6 @@ function shuffle(array){
         currentindex -=1;
 
         let temp = array[currentindex];
+        array[currentindex] = array[randomindex];
     }
 }
