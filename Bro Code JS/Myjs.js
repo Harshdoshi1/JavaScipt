@@ -474,13 +474,15 @@
 
 // map = is an object that holds key-pair value of any data type
 
-const store = new Map([
-    ["T-Shirt" , 20],
-    ["jeans" , 30],
-    ["socks" , 10],
-    ["underware" , 50]
-]);
+// const store = new Map([
+//     ["T-Shirt" , 20],
+//     ["jeans" , 30],
+//     ["socks" , 10],
+//     ["underware" , 50]
+// ]);
 
-store.get("T-Shirt");
+// store.get("T-Shirt");
 
-store.forEach((value, key) => console.log(`${key}` $${value}));
+// store.forEach((value, key) => console.log(`${key}` ,$,{value})); // error
+
+//objes
