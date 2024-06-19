@@ -617,3 +617,46 @@
 // console.log(bird1.name);
 // dog1.eat();
 // console.log(dog1.alive);
+
+// super class = refers to parent class 
+//               commonly used to invoke constuctors of parent 
+
+class Animal{
+
+    constructor(name , age){
+        this.name = name;
+        this.age = age;
+    }
+}
+
+class dog extends Animal{
+
+    constructor(name,age,runspeed){
+        super(name,age);
+        this.runspeed = runspeed;
+    }
+}
+
+class bird extends Animal{
+
+    constructor(name,age,flyspeed){
+        super(name,age);
+        this.flyspeed = flyspeed;
+    }
+
+}
+
+class fish extends Animal{
+
+    constructor(name,age,swimspeed){
+        super(name,age);
+        this.swimspeed = swimspeed;
+    }
+
+}
+
+const dog1 = new dog("german",10,30);
+
+console.log(dog1.name);
+console.log(dog1.age);
+
