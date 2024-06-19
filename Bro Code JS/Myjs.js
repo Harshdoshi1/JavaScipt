@@ -621,42 +621,44 @@
 // super class = refers to parent class 
 //               commonly used to invoke constuctors of parent 
 
-class Animal{
+// class Animal{
 
-    constructor(name , age){
-        this.name = name;
-        this.age = age;
-    }
-}
+//     constructor(name , age){
+//         this.name = name;
+//         this.age = age;
+//     }
+// }
 
-class dog extends Animal{
+// class dog extends Animal{
 
-    constructor(name,age,runspeed){
-        super(name,age);
-        this.runspeed = runspeed;
-    }
-}
+//     constructor(name,age,runspeed){
+//         super(name,age);
+//         this.runspeed = runspeed;
+//     }
+// }
 
-class bird extends Animal{
+// class bird extends Animal{
 
-    constructor(name,age,flyspeed){
-        super(name,age);
-        this.flyspeed = flyspeed;
-    }
+//     constructor(name,age,flyspeed){
+//         super(name,age);
+//         this.flyspeed = flyspeed;
+//     }
 
-}
+// }
 
-class fish extends Animal{
+// class fish extends Animal{
 
-    constructor(name,age,swimspeed){
-        super(name,age);
-        this.swimspeed = swimspeed;
-    }
+//     constructor(name,age,swimspeed){
+//         super(name,age);
+//         this.swimspeed = swimspeed;
+//     }
 
-}
+// }
 
-const dog1 = new dog("german",10,30);
+// const dog1 = new dog("german",10,30);
 
-console.log(dog1.name);
-console.log(dog1.age);
+// console.log(dog1.name);
+// console.log(dog1.age);
+
+//get = binds an objects properties into a function when that property is acceesed
 
