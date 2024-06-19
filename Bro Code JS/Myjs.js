@@ -507,3 +507,20 @@
 // car.drive();
 // car.break();
 
+// class player{
+    
+//     score = 0;
+
+//     start(){
+//         console.log("you start the game ");
+//     }
+//     pause(){
+//         console.log("you paused the game ");
+//     }
+// }
+
+// const player1 = new player();
+
+// console.log(player1.score);
+
+// player1.start();
