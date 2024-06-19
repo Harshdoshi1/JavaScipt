@@ -527,21 +527,21 @@
 
 // constructor = is a method of a class used to assign properties and accept arguments
 
-class student{
+// class student{
 
-    constructor(name,age,gpa){
-        this.name = name;
-        this.age = age;
-        this.gpa = gpa;
-    }
-    study(){
-        console.log(`${this.name} is studyiny`);
-    }
-}
+//     constructor(name,age,gpa){
+//         this.name = name;
+//         this.age = age;
+//         this.gpa = gpa;
+//     }
+//     study(){
+//         console.log(`${this.name} is studying`);
+//     }
+// }
 
-student1 = new student("harsh",20,8);
+// student1 = new student("harsh",20,8);
 
-console.log(student1.name);
-console.log(student1.age);
-console.log(student1.gpa);
-student1.study();
+// console.log(student1.name);
+// console.log(student1.age);
+// console.log(student1.gpa);
+// student1.study();
