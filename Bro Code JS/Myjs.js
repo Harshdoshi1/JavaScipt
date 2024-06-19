@@ -546,3 +546,16 @@
 // console.log(student1.gpa);
 // student1.study();
 
+// static = belongs to class not objects
+//          properties : useful for cathes, fixed confugration
+//          methods : useful for utilities
+
+class car{
+    constructor(model){
+        this.model = model;
+    }
+}
+
+const car1 = new car("Mustang");
+const car2 = new car("Corvette");
+const car3 = new car("BMW");
