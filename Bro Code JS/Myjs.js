@@ -524,3 +524,6 @@
 // console.log(player1.score);
 
 // player1.start();
+
+// constructor = is a method of a class used to assign properties and accept arguments
+
