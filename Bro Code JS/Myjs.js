@@ -570,3 +570,50 @@
 // console.log(car1.numberofCar);     
 // console.log(car1.model);
 // car.start();
+
+// inheritence 
+
+// class Animal{
+//     alive = true;
+
+//     eat(){
+//         console.log(`${this.name} is eating`);
+//     }
+//     sleep(){
+//         console.log(`${this.name} is sleeping`);
+//     }
+// }
+
+// class dog extends Animal{
+
+//     name = "german shefard"
+//     run(){
+//         console.log(`the ${this.name} is running`);
+//     }
+// }
+
+// class bird extends Animal{
+
+//     name = "falcon"
+//     fly(){
+//         console.log(`the ${this.name} is flying`);
+//     }
+// }
+
+// class fish extends Animal{
+
+//     name = "goldfish"
+//     swim(){
+//         console.log(`the ${this.name} is flying`);
+//     }
+// }
+
+// const dog1 = new dog();
+// const fish1 = new fish();
+// const bird1 = new bird();
+
+// console.log(dog1.name);
+// console.log(fish1.name);
+// console.log(bird1.name);
+// dog1.eat();
+// console.log(dog1.alive);
