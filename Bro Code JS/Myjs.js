@@ -662,3 +662,20 @@
 
 //get = binds an objects properties into a function when that property is acceesed
 
+class car{
+    constructor(power){
+        this._gas = 25;
+        this._power = power;
+    }
+    get power(){
+        return `${this._power}hp`;   
+    }
+    get gas(){
+        return `${this._gas}L`;
+    }
+}
+
+let car1 = new car(400);
+
+console.log(car1.power);
+console.log(car1.gas);
