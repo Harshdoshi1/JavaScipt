@@ -679,3 +679,26 @@
 
 // console.log(car1.power);
 // console.log(car1.gas);
+
+// anonymous object = object without a name 
+//                    not directly referenced 
+
+class   Card{
+        constructor(value, suit){
+            this.value = value;
+            this.suit = suit;
+        }
+}
+
+const cards = [
+    new Card("A","Heart"),
+    new Card("A","diamond"),
+    new Card("A","spade"),
+    new Card("A","club"),
+    new Card("2","Heart"),
+    new Card("2","diamond"),
+    new Card("2","club"),
+    new Card("2","Heart")
+]
+
+cards.forEach(card => console.log(`${card.value} ${card.suit}`))
