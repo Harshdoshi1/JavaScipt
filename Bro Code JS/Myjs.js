@@ -704,3 +704,18 @@
 // cards.forEach(card => console.log(`${card.value} ${card.suit}`))
 
 // error and throw  
+// error = object with a description something went wrong
+// throw excutes a user define error   
+
+try{
+    // console.lag();
+
+    let x = window.prompt("enter a number!");
+    x = Number(x);
+
+    if(isNaN(x)) throw "thats wasnt a number"
+    if(x == " ") throw "its empty";
+}
+catch(error){
+    console.log(error); 
+}
