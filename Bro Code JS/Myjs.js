@@ -720,18 +720,19 @@
 //     console.log(error); 
 // }
 
-// setinterval() = invoke a function rapedly after an asynchronous function 
+// // setinterval() = invoke a function rapedly after an asynchronous function 
 
-let count = 0;
-let max = window.prompt("count up to #");
-max = Number(max);
+// let count = 0;
+// let max = window.prompt("count up to #");
+// max = Number(max);
 
-const mytimer = setInterval(countUp , 500);
+// const mytimer = setInterval(countUp , 500);
 
-function countUp(){
-    count += 1;
-    console.log(count);
-    if(count >= max){
-        clearInterval(mytimer); 
-    }
-}
+// function countUp(){
+//     count += 1;
+//     console.log(count);
+//     if(count >= max){
+//         clearInterval(mytimer); 
+//     }
+// }
+
