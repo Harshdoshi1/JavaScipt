@@ -736,3 +736,15 @@
 //     }
 // }
 
+// date 
+
+let date = new Date();
+
+data = date.toLocaleString();  
+
+console.log(date); 
+
+ 
+ 
+
+
