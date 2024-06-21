@@ -736,13 +736,13 @@
 //     }
 // }
 
-// date 
+// // date 
 
-let date = new Date();
+// let date = new Date();
 
-data = date.toLocaleString();  
+// data = date.toLocaleString();  
 
-console.log(date); 
+// console.log(date); 
 
  
  
